@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,68 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-    <header id="header">
-        <div id="celulares" >
-            <h1 class="a">celulares</h1>
-        </div>
-        <div id="notebook" >
-            <h1 class="a">notebook</h1>
-        </div>
-        <div id="logo">
-            <img class="a" src="tecnoplus__1_-removebg-preview.png" alt="" width="100px" height="100px">
-        </div>
-        <div id="pcgamer"><h1 class="a">pc gamer</h1>
-        </div>
-        <div id="games" class="a">
-            <h1>games</h1>
-        </div>
-    </header>
-    
+</head>
+
+<body>
+    <center>
+        <header>
+            <a onclick="login()">Login</a>
+            <span>|</span>
+            <a onclick="cadastro()">Cadastrar</a>
+        </header>
+        <nav id="nav">
+            <div id="celulares">
+                <a href="#celulares">celulares</a>
+            </div>
+            <div id="notebook">
+                <a href="#notebook">notebook</a>
+            </div>
+            <div id="logo">
+                <img class="a" src="tecnoplus__1_-removebg-preview.png" alt="" width="100px" height="100px">
+            </div>
+            <div id="pcgamer"><a href="#pcgamer">pc gamer</a>
+            </div>
+            <div id="games">
+                <a href="#games">games</a>
+            </div>
+        </nav>
+
+
+
+
+    </center>
+
+    <section id="cards">
+        <div class="card">
+            <div id="img"><img src="Rectangle 5.png" </div>
+            </div>
+
+            <div id="cor">
+                <div class="opcao white"></div>
+                <div class="opcao gold"></div>
+                <div class="opcao gray"></div>
+                <div class="opcao darkgray"></div>
+            </div>
+
+            <div class="nome">
+                <span>iphone 14 pro </span>
+            </div>
+            <div class="info">
+                <span> 128 gb </span>
+            </div>
+            <div class="preco">
+                <span> R$8,599 </span>
+            </div>
+            <div class="comprar">
+                <button id="comprar">comprar</button>
+            </div>
+
+
+    </section>
+    <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
-#header{
+#nav{
     height: 70px;
+    width: 96%;
     background-color: #303030;
     display: flex;
     justify-content: space-evenly;
@@ -9,18 +10,205 @@
     font-size: 12px;
     color: white;
     
-}
+}       
 
-.a{
+nav a{
     text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
 }
 
 #logo{
     padding-top: 16px;
 }
 
-.a:hover{
+header{
+    margin-bottom: 14px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 4px;
+}
+nav a:hover{
     color:#0CC0DF;
     cursor: pointer;
     
+}
+header a:hover{
+    color: #59bdce;
+    cursor: pointer;
+}
+
+#login{
+    background-color: #D9D9D9;
+    width: 820px;
+    height: 750px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#contentLogin{
+    background-color: #298FA0;
+    width: 607px;
+    height: 661px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linkcadastro{
+    color:black
+}
+
+#formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #D9D9D9;
+    width: 200px;
+    font-size: 14px;
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+   
+}
+
+#titulolLogin{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    color: white;
+   
+}
+ 
+.l{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 12px;
+    
+}
+
+#enviar{
+    margin: 30px;
+    height: 49px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.linkcadastro{
+    font-size: 10px;
+    color: white;
+    font-family: Inter,sans-serif;
+}
+
+#strong{
+    color: black;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.card{
+    margin: 40px;
+    height: 428px;
+    width: 283px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+
+#img{
+    height: 180px;
+    margin-top: 20px;
+    
+    
+}
+
+.opcao{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 3px solid black;
+    margin: 13px;
+    cursor: pointer;
+
+}
+
+.white{
+    background-color: white;
+}
+.gold{
+    background-color: gold;
+}
+.gray{
+    background-color: gray;  
+}
+.darkgray{
+    background-color: rgb(47, 47, 47);
+}
+#cor{
+    display: flex;
+}
+
+.nome{
+    font-size: 25px;
+    font-family: inter;
+    font-weight: bold;
+    
+}
+
+.info{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: inter;
+    font-weight: bold; 
+}
+
+.preco{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: bold;
+    color: #298FA0;
+}
+#comprar{
+  margin-top: 15px;
+  height: 46px;
+  width: 150px;  
+  border-radius: 30px;
+  background-color: #298FA0;
+  font-size: 19px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#cadastro{
+    display: none;
 }
